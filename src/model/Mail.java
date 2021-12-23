@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class Mail {
     
-    private String mail;
+    private final String mail;
     public Mail(String mail){
         this.mail=mail;
     }

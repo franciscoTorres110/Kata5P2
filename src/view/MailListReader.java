@@ -20,7 +20,6 @@ public class MailListReader {
                 while (s.hasNextLine()) {
                         String linea = s.nextLine();
                         if (Pattern.matches(emailRegexp, linea)) {
-                            //System.out.println(linea);
                             Mail m = new Mail(linea);
                             mails.add(m);
                         }
