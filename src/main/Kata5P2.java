@@ -4,13 +4,13 @@ import java.util.*;
 import model.*;
 import view.*;
 
-public class Kata4 {
+public class Kata5P2 {
     
     Histogram histogram;
     List<Mail> mailList;
 
     public static void main(String[] args) {
-        Kata4 kata4 = new Kata4();
+        Kata5P2 kata4 = new Kata5P2();
         kata4.execute();
     }
     
