@@ -21,9 +21,8 @@ public class Kata5P2 {
     }
     
     private void input(){
-        String fileName = "email.txt";
-        MailListReader m = new MailListReader();
-        mailList = m.read(fileName);
+        MailListReaderBD m = new MailListReaderBD();
+        mailList = m.selectAll();
     }
     
     private void process(){
